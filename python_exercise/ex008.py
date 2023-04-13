@@ -1,0 +1,5 @@
+print('>>> Redutor de Metragem <<<')
+m = float(input('Qual a Metragem?'))
+c = float(m*100)
+ml = float(m*1000)
+print('A Metragem de {}m equivale a {} Centímetros e {} Milímetros' .format( m, c, ml))
