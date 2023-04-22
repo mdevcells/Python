@@ -4,4 +4,4 @@ d = float(input('Valor do Desconto:'))
 vv = d / 100
 vd = v * vv
 vf = v - vd
-print('>>> Valor com desconto: R${}' .format(vf))
+print('>>> Valor com desconto: R${:.2f}' .format(vf))
